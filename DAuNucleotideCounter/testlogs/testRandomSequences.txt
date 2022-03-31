@@ -1,0 +1,5 @@
+Enter input filename:
+sbcctestdata/in_20210921_20_07_31_656.txt
+Enter output filename:
+sbcctestdata/test_20210921_20_07_31_866.txt
+Complete

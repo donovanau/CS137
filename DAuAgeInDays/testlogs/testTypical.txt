@@ -1,0 +1,3 @@
+Enter your age:
+60
+60 years old is about 2160 days old.

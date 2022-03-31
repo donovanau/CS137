@@ -1,0 +1,39 @@
+get filenames from stdin
+opening files for reading and writing
+
+while(!file not at end){
+	
+}
+
+close the files
+
+return (exit);
+-------------------------------------------------
+
+what i want to do:
+pull individual line (fgets)
+>go through that line character by character (fgetc) until newline (\n)
+>get number of A's, C's, G's and T's and send to file.
+repeat for each line.
+
+switch case looks like:
+
+c is single character
+switch (c){
+case 'A':
+case 'a':
+	numA++;
+	break;
+case 'B':
+case 'b':
+	numA++;
+	break;
+case 'C':
+case 'c':
+	numA++;
+	break;
+case 'D':
+case 'd':
+	numA++;
+	break;
+}

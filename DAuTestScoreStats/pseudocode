@@ -1,0 +1,27 @@
+int input;
+int count;
+float total = 0;
+float min;
+float max;
+float avg;
+float sumOfSquares;
+float stDev; //do i even need to initialize all these values?
+
+do {
+	fgets(buffer, BUFSIZ, stdin); //get the score from user input
+	input = atoi(buffer)
+	
+	total += input; //add to score
+	count += 1;
+	if (input < min or count == 1){
+		min = input;
+	}
+	if (input > max or count == 1){
+		max = input;
+	}
+	
+} while (input > 0.0); //NOT sure how to work this yet.
+
+avg = total/count;
+
+printf("%d\t%f\t%f\t%f\t%f", count, min, max, avg, stDev);
